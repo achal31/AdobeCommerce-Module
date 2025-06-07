@@ -3,7 +3,7 @@
     <route url="/V1/related-products/:sku" method="GET">
         <service class="Vendor\ApiGetProductDetailModule\Api\RelatedProductInterface" method="getRelatedProducts"/>
         <resources>
-            <resource ref="anonymous"/>
+            <resource ref="Magento_Catalog"/>
         </resources>
     </route>
 </routes>
