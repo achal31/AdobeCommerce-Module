@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- File: Vendor/ApiGetProductDetailModule/etc/di.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <!-- RelatedProductItemInterface -->
+    <preference for="Vendor\ApiGetProductDetailModule\Api\Data\RelatedProductItemInterface"
+                type="Vendor\ApiGetProductDetailModule\Model\Api\Data\RelatedProductItem" />
+
+    <!-- RelatedProductDataInterface -->
+    <preference for="Vendor\ApiGetProductDetailModule\Api\Data\RelatedProductDataInterface"
+                type="Vendor\ApiGetProductDetailModule\Model\Api\Data\RelatedProductData" />
+
+    <!-- RelatedProductResponseInterface -->
+    <preference for="Vendor\ApiGetProductDetailModule\Api\Data\RelatedProductResponseInterface"
+                type="Vendor\ApiGetProductDetailModule\Model\Api\Data\RelatedProductResponse" />
+
+    <!-- RelatedProductInterface -->
+    <preference for="Vendor\ApiGetProductDetailModule\Api\RelatedProductInterface"
+                type="Vendor\ApiGetProductDetailModule\Model\Api\RelatedProduct" />
+
+</config>
